@@ -1,0 +1,190 @@
+<!-- STUFF TO EDIT WHEN ADDING A NEW PROJECT:
+(1) title on tab
+(2) title and subtitle of page
+(3) pictures
+(4) "Other projects" portion of other projects -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kendra Go | Dose of Donnuts</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <ul class="page_menu">
+            <li>
+                <a class="about" href="index.html">ABOUT</a>
+            </li>
+
+            <li>
+                <a class="works" href="work.html">PROJECTS</a>
+            </li>
+
+            <li>
+                <a class="affiliations" href="affiliations.html">AFFILIATIONS</a>
+            </li>
+        </ul>
+
+        <div class="sign_container">
+            <a href="index.html" class="signature">
+                <img src="assets/signature.png" class="signaturepng" alt="signature"/>
+            </a>
+        </div>
+
+        <ul class="soc_med">
+            <li>
+                <a href="https://www.linkedin.com/in/kendra-go/">
+                    <img src="assets/linkedin.png" class="linkedin" alt="linkedin url"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/nefelibata04/">
+                    <img src="assets/ig.png" class="ig" alt="instagram url"/>
+                </a>
+            </li>
+
+            <li>
+                <a href="mailto:kendigo.0416@gmail.com">
+                    <img src="assets/email.png" class="email" alt="email address"/>
+                </a>
+            </li>
+        </ul>
+
+        <input type="checkbox" id="check" onclick="myFunction()">
+
+        <label for="check" class="checkbtn">
+            <!-- <i class="fas fa-bars"></i> -->
+
+            <div id="nav-icon3">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="small_nav" id="small_nav_id">
+                <a class="about" href="index.html" >ABOUT</a>
+                <a class="works" href="work.html" id="proj_small">PROJECTS</a>
+                <a class="affiliations" href="affiliations.html" id="aff_small">
+                AFFILIATIONS</a>
+
+                <!-- <div class="soc_med_container" id="footer_socmed">
+                    <ul class="soc_med">
+                        <li>
+                            <a href="https://www.linkedin.com/in/kendra-go/">
+                                <img src="assets/linkedin.png" class="linkedin" alt="linkedin url"/>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.instagram.com/nefelibata04/">
+                                <img src="assets/ig.png" class="ig" alt="instagram url"/>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:kendigo.0416@gmail.com">
+                                <img src="assets/email.png" class="email" alt="email address"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </label>
+    </nav>
+
+    <div class="heading">
+        <div class="title_container">
+            <div class="title">
+                <p>Dose of Donuts</p>
+            </div>
+
+            <div class="subtitle">
+                <p>Catered to hungry university students, Dose of Donuts is a desktop website for customizable donuts and coffee orders.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content_container">
+        <img src="images/proj_4/1.png" class="proj_img" alt="homepage"/>
+
+        <img src="images/proj_4/2.png" class="proj_img" alt="testimonials screen"/>
+
+        <img src="images/proj_4/3.png" class="proj_img" alt="order screen"/>   
+    </div>
+
+    <div class="other_projs">
+        <p id="look">Take a look at my other projects</p>
+        <div class="row_1">
+            <div class="column">
+                <div class="proj_1">
+                    <a href="proj_1.html">
+
+                        <!-- EDIT TITLE AND DESC --> 
+                        <img src="images/proj_1/thumbnail.png" class="thumbnail" alt="Grand Budapest Hotel">
+
+                        <div class="image_overlay">
+                            <div class="image_title">Grand Budapest Hotel</div>
+                            <p class = "image_description">Graphic Design, Illustration</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="proj_2">
+                    <a href="proj_2.html">
+
+                        <!-- EDIT TITLE AND DESC --> 
+                        <img src="images/proj_2/thumbnail.png" class="thumbnail" alt="Grand Budapest Hotel">
+
+                        <div class="image_overlay">
+                            <div class="image_title">Java Animation</div>
+                            <p class = "image_description">Motion Graphics, Development</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <footer>
+        <div class="footer">
+            <div class="soc_med_container" id="footer_socmed">
+                <ul class="soc_med" id="nav_soc_med">
+                    <li>
+                        <a href="https://www.linkedin.com/in/kendra-go/">
+                            <img src="assets/linkedin.png" class="linkedin" alt="linkedin url"/>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.instagram.com/nefelibata04/">
+                            <img src="assets/ig.png" class="ig" alt="instagram url"/>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="mailto:kendigo.0416@gmail.com">
+                            <img src="assets/email.png" class="email" alt="email address"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <label>© 2020 Kendra Kirsten Go. All Rights Reserved.</label>
+            </div>
+        </div>
+    </footer>
+    <script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
