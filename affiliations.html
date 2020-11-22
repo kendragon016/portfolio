@@ -8,11 +8,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kendra Go | Affiliations</title>
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" contents="ie=edge">
+    <title>Kendra Go | About</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="js/script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/icon.png">
 </head>
 
@@ -71,9 +71,9 @@
             </div>
 
             <div class="small_nav" id="small_nav_id">
-                <a class="about" href="index.html" >ABOUT</a>
-                <a class="works" href="work.html" id="proj_small">PROJECTS</a>
-                <a class="affiliations" href="affiliations.html" id="aff_small">
+                <a class="about" href="index.html" id="small_elements">ABOUT</a>
+                <a class="works" href="work.html" id="small_elements">PROJECTS</a>
+                <a class="affiliations" href="affiliations.html" id="small_elements">
                 AFFILIATIONS</a>
 
                 <!-- <div class="soc_med_container" id="footer_socmed">
@@ -114,61 +114,62 @@
         </div>
     </div>
 
-    <div class="content_container">
-        <div class="row_1">
-            <div class="column"id="org">
-                <div class="org">
-                    <a href= "https://www.facebook.com/ARSAAteneo">
+    <div class="content_container" id="org_container">
+        <div class="row_1" id="org_row">
+            <a href= "https://www.facebook.com/ARSAAteneo">
+                <div class="column"id="org">
+                    <div class="org">
+                        
                         <img src="images/org/arsa.png" class="org_logo" alt="UXPH Logo"/>
-                    </a>
+                        
+                        <div class="org_info">
+                            <div class="org_name">
+                                <p>ARSA</P>
+                            </div>
 
-                    <div class="org_info">
-                        <div class="org_name">
-                            <p>ARSA</P>
-                        </div>
-
-                        <div class="org_position">
-                            <p>Deputy for Promos</p>
+                            <div class="org_position">
+                                <p>Deputy for Promos <br>(Branding Department) </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="column" id="org">
-                <div class="org">
-                    <a href= "https://www.uxph.org/">
+            <a href= "https://www.uxph.org/">   
+                <div class="column" id="org">
+                    <div class="org">
                         <img src="images/org/uxph.png" class="org_logo" alt="UXPH Logo"/>
-                    </a>
+                        
+                        <div class="org_info">
+                            <div class="org_name">
+                                <p>UXPH</p>
+                            </div>
 
-                    <div class="org_info">
-                        <div class="org_name">
-                            <p>UXPH</p>
-                        </div>
-
-                        <div class="org_position">
-                            <p>Events and Partnerships Volunteer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column" id="org">
-                <div class="org">
-                    <a href= "https://www.facebook.com/GabayAteneo">
-                        <img src="images/org/gabay.png" class="org_logo" alt="UXPH Logo"/>
-                    </a>
-
-                    <div class="org_info">
-                        <div class="org_name">
-                            <p>ATENEO GABAY</p>
-                        </div>
-
-                        <div class="org_position">
-                            <p>Deputy for Academic Resources</p>
+                            <div class="org_position">
+                                <p>Events and Partnerships Volunteer</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
+
+            <a href= "https://www.facebook.com/GabayAteneo"> 
+                <div class="column" id="org">
+                    <div class="org">
+                            <img src="images/org/gabay.png" class="org_logo" alt="UXPH Logo"/>
+
+                        <div class="org_info">
+                            <div class="org_name">
+                                <p>ATENEO GABAY</p>
+                            </div>
+
+                            <div class="org_position">
+                                <p>Deputy for Academic Resources</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
 
         </div>        
     </div>
@@ -202,5 +203,8 @@
             </div>
         </div>
     </footer>
+    <script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
