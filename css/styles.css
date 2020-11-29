@@ -205,7 +205,8 @@ nav {
 }
 
 .content_container{
-	position: relative;
+	background: #222222;
+  position: relative;
 	padding-bottom: 10%;
 	padding-top: 10%
 	display: flex;
@@ -363,6 +364,7 @@ button:hover .icon-right.after:before {
 
 #proj_footer_socmed{
     margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 footer{
@@ -402,10 +404,6 @@ footer{
 		flex-direction: row;
   	flex-wrap: wrap;
 	}
-
-  .row_3{
-    width: 50%;
-  }
 }
 
 .column {
@@ -421,7 +419,7 @@ footer{
 	margin:5%;
 }
 
-.proj_1, .proj_2, .proj_3, .proj_4, .proj_5{
+.proj_1, .proj_2, .proj_3, .proj_4, .proj_5, .proj_6{
 	position: relative;
 	margin: 4%;
 }
