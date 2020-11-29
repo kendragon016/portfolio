@@ -15,6 +15,10 @@ nav {
     display: flex;
 }
 
+a{
+  text-decoration: none;
+}
+
 .sign_container {
   flex: 2;
 	margin: auto;
@@ -417,6 +421,7 @@ footer{
 
 #org{
 	margin:5%;
+
 }
 
 .proj_1, .proj_2, .proj_3, .proj_4, .proj_5, .proj_6{
@@ -466,12 +471,14 @@ footer{
   display: flex;
   width: 100%;
   justify-content: center;
+  text-decoration: none;
 }
 
 #org_row{
   width: 90%;
   text-align: center;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 #org{
@@ -486,10 +493,15 @@ footer{
   box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
   color: #F5F7FA;
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
 
 #org:hover{
   box-shadow: none;
+}
+
+.content_container.row_1 a{
+  text-decoration: none;
 }
 
 .org_logo{
